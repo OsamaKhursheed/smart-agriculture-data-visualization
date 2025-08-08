@@ -44,7 +44,6 @@ smart-agriculture-data-visualization/
 │── main.ipynb               # Jupyter Notebook with code
 │── data/                    # Datasets (original, modified, impure)
 │── docs/                    # Research paper PDF
-│── results/                 # Plots, charts, confusion matrices
 │── requirements.txt         # Python dependencies
 ```
 
