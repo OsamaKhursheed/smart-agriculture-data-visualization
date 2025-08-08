@@ -1,91 +1,90 @@
-# smart-agriculture-data-visualization
-Developed a smart agriculture AI project analyzing soil, climate, and fertilizer data to predict crop types. Implemented SVC, KNN, Decision Tree, and Naive Bayes models, with Naive Bayes achieving 98.2% accuracy. Created visualizations using Python, Matplotlib, and Seaborn for actionable insights.
+Here’s a **professional README.md** for your project, ready for GitHub:
 
-Smart Agriculture: Data Visualization & Crop Type Classification
-This project, completed as part of the CS326 Artificial Intelligence & Expert Systems course at Usman Institute of Technology (affiliated with NED University), applies AI and data visualization techniques to improve decision-making in agriculture. Using soil, climate, and fertilizer data, we predicted suitable crop types and created visual insights for farmers and researchers.
+---
 
-📌 Project Overview
-Goal: Predict suitable crops based on soil nutrients, climate conditions, and fertilizer data.
+# Smart Agriculture: Data Visualization & Crop Type Classification
 
-Dataset: Kaggle dataset (India) containing nitrogen, phosphorus, potassium, temperature, humidity, pH, and rainfall values.
+This project, completed as part of the **CS326 Artificial Intelligence & Expert Systems** course at **Usman Institute of Technology (affiliated with NED University)**, applies AI and data visualization techniques to improve decision-making in agriculture. Using soil, climate, and fertilizer data, we predicted suitable crop types and created visual insights for farmers and researchers.
 
-Key Focus: Data cleaning, visualization, and model comparison.
+## 📌 Project Overview
 
-🛠 Features
-Data cleaning (including simulated impurities and recovery)
+* **Goal:** Predict suitable crops based on soil nutrients, climate conditions, and fertilizer data.
+* **Dataset:** Kaggle dataset (India) containing nitrogen, phosphorus, potassium, temperature, humidity, pH, and rainfall values.
+* **Key Focus:** Data cleaning, visualization, and model comparison.
 
-Visualizations with Matplotlib & Seaborn
+## 🛠 Features
 
-Implemented 4 ML models: SVC, KNN, Decision Tree, Naive Bayes
+* Data cleaning (including simulated impurities and recovery)
+* Visualizations with **Matplotlib** & **Seaborn**
+* Implemented 4 ML models: **SVC**, **KNN**, **Decision Tree**, **Naive Bayes**
+* Performance evaluation with accuracy, precision, recall, and F1-score
+* Comparative charts & confusion matrices
 
-Performance evaluation with accuracy, precision, recall, and F1-score
+## 📊 Results Summary
 
-Comparative charts & confusion matrices
+| Model           | Accuracy  | Precision | Recall    | F1-Score  |
+| --------------- | --------- | --------- | --------- | --------- |
+| **Naive Bayes** | **98.2%** | **98.3%** | **98.2%** | **98.2%** |
+| SVC             | 97.9%     | 98.2%     | 97.9%     | 97.9%     |
+| Decision Tree   | 97.3%     | 97.4%     | 97.3%     | 97.2%     |
+| KNN             | 96.6%     | 97.0%     | 96.6%     | 96.5%     |
 
-📊 Results Summary
-Model	Accuracy	Precision	Recall	F1-Score
-Naive Bayes	98.2%	98.3%	98.2%	98.2%
-SVC	97.9%	98.2%	97.9%	97.9%
-Decision Tree	97.3%	97.4%	97.3%	97.2%
-KNN	96.6%	97.0%	96.6%	96.5%
+**Best Model:** Naive Bayes – balanced highest accuracy with lowest false positives and false negatives.
 
-Best Model: Naive Bayes – balanced highest accuracy with lowest false positives and false negatives.
+## 🖥 Tech Stack
 
-🖥 Tech Stack
-Programming Language: Python
+* **Programming Language:** Python
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* **Environment:** Jupyter Notebook
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+## 📂 Project Structure
 
-Environment: Jupyter Notebook
-
-📂 Project Structure
-bash
-Copy
-Edit
+```
 smart-agriculture-data-visualization/
 │── main.ipynb               # Jupyter Notebook with code
 │── data/                    # Datasets (original, modified, impure)
 │── docs/                    # Research paper PDF
 │── results/                 # Plots, charts, confusion matrices
 │── requirements.txt         # Python dependencies
-⚙️ How to Run
-Clone this repository:
+```
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/smart-agriculture-data-visualization.git
-cd smart-agriculture-data-visualization
-Install dependencies:
+## ⚙️ How to Run
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Open Jupyter Notebook:
+1. Clone this repository:
 
-bash
-Copy
-Edit
-jupyter notebook main.ipynb
-📈 Visualizations
-Accuracy comparison chart
+   ```bash
+   git clone https://github.com/yourusername/smart-agriculture-data-visualization.git
+   cd smart-agriculture-data-visualization
+   ```
+2. Install dependencies:
 
-Precision, recall, and F1-score grouped bars
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open Jupyter Notebook:
 
-Confusion matrices for each model
+   ```bash
+   jupyter notebook main.ipynb
+   ```
 
-🧠 Learning Outcomes
-Practical application of AI algorithms to real-world datasets
+## 📈 Visualizations
 
-Comparative evaluation of ML models
+* Accuracy comparison chart
+* Precision, recall, and F1-score grouped bars
+* Confusion matrices for each model
 
-Importance of data visualization in decision-making
+## 🧠 Learning Outcomes
 
-👥 Team
-Osama Khursheed – Team Lead, Developer
+* Practical application of AI algorithms to real-world datasets
+* Comparative evaluation of ML models
+* Importance of data visualization in decision-making
 
-Shaheer Muhammad Shahbaz – Developer
+## 👥 Team
 
-Shaheer Adil – Developer
+* **Osama Khursheed** – Team Lead, Developer
+* **Shaheer Muhammad Shahbaz** – Developer
+* **Shaheer Adil** – Developer
 
+---
+
+Do you want me to now **generate the `requirements.txt`** automatically from your `main.ipynb` so your GitHub repo runs without dependency issues? That way, anyone can run it instantly.
